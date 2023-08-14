@@ -20,7 +20,7 @@ describe('index.js', function () {
   });
 
   describe('selectingDrivers', function () {
-    it('has the `returnFirstTwoDrivers` function to as its first element', function () {
+    it('has the `returnFirstTwoDrivers` function as its first element', function () {
       expect(selectingDrivers[0]).to.eql(returnFirstTwoDrivers);
     });
 
